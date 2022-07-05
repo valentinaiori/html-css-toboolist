@@ -10,28 +10,54 @@
 </head>
     
 <body>
-    <header>
-        <img src="img/Logo.png" alt="Logo-principale">
-        <h1>Toboolist</h1>
-    </header>
+
+        <header>
+            <img src="img/Logo.png" alt="Logo-principale">
+            <h1>Toboolist</h1>
+        </header>
     
-    <main>
-        <div class="">
-            <!--Parte iniziale bottoni-->
-            <Section>
-                <input type="button" value="Add Task">
-                <input type="button" value="Add Section">
-            </Section>
+        <main>
+             <!--Parte iniziale bottoni-->
+            <div class="container">
+                <button type="button">Add Task</button>
+                <button type="button">Add Section</button>
+            </div>
+    
+        
+            <div class="container list">
+                 <!--Lista-->
+                <section>
+                    <ol>
+                        <li><span>&#9662;</span>New Task
+                            <ul>
+                                <li><span>&check;</span>Quarterly Newsletter</li>
+                            </ul>
+                        </li>
 
-            <!--Lista-->
-            <section>
+                        <li><span>&#9662;</span>Today 
+                            <ul>
+                                <li><span>&check;</span>Recruiting blog post</li>
+                                <li><span>&check;</span>Mobile app luaunch</li>
+                                <li><span>&check;</span>Interview John H.</li>
+                                <li><span>&cross;</span>Summit update to mobile storefronts</li>
+                            </ul>
+                            </li>
 
-            </section>
-        </div>
+                        <li><span>&#9662;</span>Upcoming
+                            <ul>
+                                <li><span>&cross;</span>Schedule meeting with Alex</li>
+                                <li><span>&check;</span>Homepage refresh</li>
+                                <li><span>&check;</span>Onboard new Sales team members</li>
+                                <li><span>&check;</span>Review editorial calendar</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </section>
+
+            </div>
+        
+                    
     </main> 
-       
-    <footer>
-
-    </footer>
+   
 </body>
 </html>
