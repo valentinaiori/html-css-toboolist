@@ -3,12 +3,15 @@
     padding: 0;
 }
 
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1 {
     display: inline-block;
     vertical-align: middle;
     line-height: 50px;
     margin: 10px;
-
 }
 
 img {
@@ -17,11 +20,107 @@ img {
     margin-left: 15px ;
 }
 
+
 header{
     width: 100%;
+    background-color: white;
 }
 
-main{
-    margin-left: 500px;
-    margin-right: 500px;
+.container{
+    margin: 100px auto 0;
+    background-color: white;
+    width: 1024px;
+    padding: 20px;
+}
+
+button{
+    border: 1px solid lightgrey;
+    padding: 5px;
+    color: white;
+    background-color: deepskyblue;
+}
+.list{
+    margin-top: 10px;
+
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+ol{
+    list-style: none;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.check-mark{
+    border: 1px solid green;
+    color: green;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.uncheck-mark{
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.editorial{
+    font-size: 12px;
+    border-radius: 27%;
+    padding: 2px;
+    background-color: deepskyblue;
+    border: 1px solid deepskyblue;
+    color: white;
+}
+
+.q1-goals{
+    font-size: 12px;
+    border-radius:27%;
+    padding: 2px;
+    background-color: mediumpurple;
+    border: 1px solid mediumpurple;
+    color: white;
+}
+
+.recruiting{
+    font-size: 12px;
+    border-radius:27%;
+    padding: 2px;
+    background-color: lightseagreen;
+    border: 1px solid lightseagreen;
+    color: white;
+}
+
+.mobile{
+    font-size: 12px;
+    border-radius:27%;
+    padding: 2px;
+    background-color: orange;
+    border: 1px solid orange ;
+    color: white;
+}
+
+.website{
+    font-size: 12px;
+    border-radius:27%;
+    padding: 2px;
+    background-color: palevioletred;
+    border: 1px solid palevioletred ;
+    color: white;
+}
+
+.sales{
+    font-size: 12px;
+    border-radius:27%;
+    padding: 2px;
+    background-color: olivedrab;
+    border: 1px solid olivedrab ;
+    color: white;
 }
