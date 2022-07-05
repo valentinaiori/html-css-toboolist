@@ -1,0 +1,27 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 50px;
+    margin: 10px;
+
+}
+
+img {
+    vertical-align: middle;
+    height:50 px;
+    margin-left: 15px ;
+}
+
+header{
+    width: 100%;
+}
+
+main{
+    margin-left: 500px;
+    margin-right: 500px;
+}
