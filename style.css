@@ -1,3 +1,5 @@
+/*generics */
+
 *{
     margin: 0 auto;
     padding: 0;
@@ -5,8 +7,11 @@
 
 body{
     background-color: lightgray;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
+
+/* header */
+
 h1 {
     display: inline-block;
     vertical-align: middle;
@@ -26,6 +31,8 @@ header{
     background-color: white;
 }
 
+/* content */
+
 .container{
     margin: 100px auto 0;
     background-color: white;
@@ -33,15 +40,23 @@ header{
     padding: 20px;
 }
 
-button{
+
+.blue-button{
     border: 1px solid lightgrey;
     padding: 5px;
     color: white;
     background-color: deepskyblue;
 }
+
+.white-button{
+    border: 1px solid lightgrey;
+    padding: 5px;
+    color: white;
+    background-color: trasparent;
+}
+
 .list{
     margin-top: 10px;
-
 }
 
 ul{
@@ -62,6 +77,7 @@ li{
     color: green;
     border-radius: 50%;
     padding: 2px;
+    margin-right: 10px;
 }
 
 .uncheck-mark{
@@ -69,58 +85,65 @@ li{
     color: red;
     border-radius: 50%;
     padding: 2px;
+    margin-right: 10px;
 }
 
 .editorial{
-    font-size: 12px;
-    border-radius: 27%;
-    padding: 2px;
-    background-color: deepskyblue;
-    border: 1px solid deepskyblue;
+    display: inline-block;
+    font-size: 0.7rem;
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: #049;
     color: white;
+    text-align: center;
 }
 
 .q1-goals{
-    font-size: 12px;
-    border-radius:27%;
-    padding: 2px;
-    background-color: mediumpurple;
-    border: 1px solid mediumpurple;
+    display: inline-block;
+    font-size: 0.7rem;
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: purple;
     color: white;
+    text-align: center;
 }
 
 .recruiting{
-    font-size: 12px;
-    border-radius:27%;
-    padding: 2px;
+    display: inline-block;
+    font-size: 0.7rem;
+    border-radius: 20px;
+    padding: 5px 15px;
     background-color: lightseagreen;
-    border: 1px solid lightseagreen;
     color: white;
+    text-align: center;
 }
 
 .mobile{
-    font-size: 12px;
-    border-radius:27%;
-    padding: 2px;
+    display: inline-block;
+    font-size: 0.7rem;
+    border-radius: 20px;
+    padding: 5px 15px;
     background-color: orange;
-    border: 1px solid orange ;
     color: white;
+    text-align: center;
 }
 
 .website{
-    font-size: 12px;
-    border-radius:27%;
-    padding: 2px;
+    display: inline-block;
+    font-size: 0.7rem;
+    border-radius: 20px;
+    padding: 5px 15px;
     background-color: palevioletred;
-    border: 1px solid palevioletred ;
     color: white;
+    text-align: center;
 }
 
 .sales{
-    font-size: 12px;
-    border-radius:27%;
-    padding: 2px;
+    display: inline-block;
+    font-size: 0.7rem;
+    border-radius: 20px;
+    padding: 5px 15px;
     background-color: olivedrab;
-    border: 1px solid olivedrab ;
     color: white;
+    text-align: center;
 }
